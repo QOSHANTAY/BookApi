@@ -15,6 +15,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedMamifestStaticFilesStorage'
+
 
 # Application definition
 
